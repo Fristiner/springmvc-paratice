@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>springmvc-base-input-02</module>
+        <module>Partice-9-25</module>
     </modules>
 
     <properties>

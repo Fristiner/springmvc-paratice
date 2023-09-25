@@ -1,32 +1,25 @@
-package com.ma.config;
+package com.ma.SpringMvcTest.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
+/**
+ * projectName: ssm-springmvc-part
+ * {@code @author: ma }
+ * 2023 09 25 11:14 AM
+ * description:
+ */
 
-
-
-
-public class SpringMvcInit extends AbstractAnnotationConfigDispatcherServletInitializer {
-    /**
-     * get root config classes
-     *
-     * @return class<?>[]
-     */
+public class Impl extends AbstractAnnotationConfigDispatcherServletInitializer {
     @Override
     protected Class<?>[] getRootConfigClasses() {
         return new Class[0];
     }
 
-    /**
-     * get servlet config classes
-     *
-     * @return class<?>[]
-     */
     @Override
     protected Class<?>[] getServletConfigClasses() {
         return new Class[]{MvcConfig.class};
     }
-    // 配置springmvc内部自带servlet 的访问地址
+
     @Override
     protected String[] getServletMappings() {
         return new String[]{"/"};
