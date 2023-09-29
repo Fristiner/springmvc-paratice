@@ -12,6 +12,9 @@
         <module>springmvc-base-input-02</module>
         <module>Partice-9-25</module>
         <module>springmvc-base-output-03</module>
+
+        <module>springmvc-base-restful-05</module>
+        <module>springmvc-high-throw-06</module>
     </modules>
 
     <properties>

@@ -1,0 +1,7 @@
+com\ma\SpringMvcTest\config\MvcConfig.class
+com\ma\SpringMvcTest\controller\ParamRequest.class
+com\ma\SpringMvcTest\config\Impl.class
+com\ma\SpringMvcTest\controller\PathRequest.class
+com\ma\SpringMvcTest\pojo\User.class
+com\ma\Main.class
+com\ma\SpringMvcTest\controller\JsonRequest.class
