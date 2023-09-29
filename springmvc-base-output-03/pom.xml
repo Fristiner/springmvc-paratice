@@ -9,9 +9,7 @@
   </parent>  
   <artifactId>springmvc-base-output-03</artifactId>  
   <packaging>pom</packaging>
-  <modules>
-    <module>springmvc-base-restful-04</module>
-  </modules>
+
   <properties> 
     <maven.compiler.source>17</maven.compiler.source>  
     <maven.compiler.target>17</maven.compiler.target>  

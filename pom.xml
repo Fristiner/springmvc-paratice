@@ -15,6 +15,7 @@
 
         <module>springmvc-base-restful-05</module>
         <module>springmvc-high-throw-06</module>
+        <module>springmvc-high--filter-07</module>
     </modules>
 
     <properties>
