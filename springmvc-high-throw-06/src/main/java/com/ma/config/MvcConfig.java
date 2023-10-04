@@ -22,6 +22,7 @@ public class MvcConfig implements WebMvcConfigurer {
 //    @Override
 //    public void addInterceptors(InterceptorRegistry registry) {
 //        // 配置方案1 ： 拦截全部请求
+
 ////        registry.addInterceptor(new MyInterceptor());
 ////
 ////        // 配置方案2 ： 拦截部分请求
